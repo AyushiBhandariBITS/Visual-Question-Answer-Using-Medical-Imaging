@@ -1,3 +1,5 @@
+<a href="https://drive.google.com/file/d/1E3UQqoQIY6sBBGQrb5qJ9BdzbKzB-Zsf/view?usp=drive_link"> DEMO
+
 # Visual-Question-Answer-Using-Medical-Imaging
 Developed a transformer-based model that combines Vision Transformer (ViT) for image feature extraction and BERT for question embedding, achieving high accuracy on datasets like VQA-RAD and PathVQA for both closed and open-ended clinical question answering.
 
@@ -43,3 +45,4 @@ The image features f<sub>xi</sub> and the question features f<sub>qi</sub> are c
 ## Multi model representation
 
 The decoder layer is composed of the same MSA and FFN block present in the encoder. However the decoder uses a masked self attention block that learns the dependencies within the answer tokens without considering future tokens.
+
